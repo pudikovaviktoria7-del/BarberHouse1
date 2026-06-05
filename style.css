@@ -25,3 +25,20 @@ body {
 .container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 24px; }
 .text-gold { color: var(--color-gold); }
 .text-underline { border-bottom: 2px solid var(--color-gold); padding-bottom: 4px; }
+
+.header {
+    background-color: rgba(17, 17, 17, 0.95);
+    border-bottom: 1px solid #222;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.header__container { display: flex; justify-content: space-between; align-items: center; }
+.logo { font-family: var(--font-serif); font-size: 24px; color: var(--color-gold); text-decoration: none; font-weight: 700; z-index: 101; }
+
+.nav__list { display: flex; gap: 32px; list-style: none; transition: var(--transition); }
+.nav__link { color: var(--text-white); text-decoration: none; font-size: 14px; font-weight: 500; transition: var(--transition); }
+.nav__link:hover, .nav__link--active { color: var(--color-gold); }
+
+.burger-btn { display: none; background: none; border: none; color: var(--color-gold); font-size: 28px; cursor: pointer; z-index: 101; }
