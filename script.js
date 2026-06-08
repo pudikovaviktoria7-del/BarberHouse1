@@ -23,3 +23,18 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(el);
     });
     });
+    
+    
+    const burgerBtn = document.querySelector('.burger-btn');
+    const navList = document.querySelector('.nav__list');
+
+    if (burgerBtn && navList) {
+        burgerBtn.addEventListener('click', () => {
+            navList.classList.toggle('nav--open');
+            if (navList.classList.contains('nav--open')) {
+                burgerBtn.innerHTML = '✕';
+            } else {
+                burgerBtn.innerHTML = '☰';
+            }
+        });
+    } 
