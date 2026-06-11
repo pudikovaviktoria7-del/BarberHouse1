@@ -122,11 +122,7 @@ body {
     .header__container .btn--primary { display: none; }
     .grid-3, .gallery-grid, .footer__container, .form-row { grid-template-columns: 1fr; }
     .hero__title { font-size: 38px; }
-<<<<<<< HEAD
 }
-=======
-
->>>>>>> ac7f1d22828ae8696d0a8887680da64c83db9b7b
 .features-block {
     background-color: #222222; 
     border: 1px solid #444444;
@@ -404,8 +400,4 @@ body {
         gap: 35px;              
         text-align: left;
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> ac7f1d22828ae8696d0a8887680da64c83db9b7b
